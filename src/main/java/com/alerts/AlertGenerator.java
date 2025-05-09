@@ -10,6 +10,7 @@ import com.data_management.Patient;
  * it against specific health criteria.
  */
 public class AlertGenerator {
+    // Stores patient data
     private DataStorage dataStorage;
 
     /**
@@ -20,7 +21,9 @@ public class AlertGenerator {
      * @param dataStorage the data storage system that provides access to patient
      *                    data
      */
-    public AlertGenerator(DataStorage dataStorage) {
+
+
+    public AlertGenerator(DataStorage dataStorage) {            //fix : added spacing between methods 
         this.dataStorage = dataStorage;
     }
 
@@ -34,8 +37,10 @@ public class AlertGenerator {
      *
      * @param patient the patient data to evaluate for alert conditions
      */
-    public void evaluateData(Patient patient) {
-        // Implementation goes here
+
+
+    public void evaluateData(Patient patient) {                     //fix : added spacing between methods 
+        // Implementation goes here 
     }
 
     /**
@@ -46,6 +51,8 @@ public class AlertGenerator {
      *
      * @param alert the alert object containing details about the alert condition
      */
+
+     
     private void triggerAlert(Alert alert) {
         // Implementation might involve logging the alert or notifying staff
     }
