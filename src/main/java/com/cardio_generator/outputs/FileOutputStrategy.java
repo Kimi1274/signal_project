@@ -7,7 +7,7 @@ import java.nio.file.Paths;
 import java.nio.file.StandardOpenOption;
 import java.util.concurrent.ConcurrentHashMap;
 
-public class FileOutputStrategy implements OutputStrategy {
+public class FileOutputStrategy implements OutputStrategy {  // fix : fileOutputStrategy to capital F 
 
     private String baseDirectory;     //Fix : BaseDirectory , renamed to camelcase 
 
